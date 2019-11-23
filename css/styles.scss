@@ -246,6 +246,7 @@ header:hover{
         font-size: 18px;
         padding-bottom: 58px;
         @include mq('sp'){
+	    color:#FFFFFF;
             font-size: 16px;
             letter-spacing: 0.4px;
             line-height: 26px;
