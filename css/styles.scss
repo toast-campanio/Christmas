@@ -38,11 +38,11 @@ a,p {
 }
 section{
     width:100%;
-    background-color: #F3F3F3;
+    background-color: #186d56;
     
 }
 body{
-    background-color: #F3F3F3;
+    background-color: #186d56;
 }
 .inner{
     width:1180px;
@@ -96,13 +96,13 @@ body{
     }
 }
 .wh-btn:hover{
-    border: 1px solid #FFFFFF;
-    background-color: #3E3E3E;
+    border: 1px solid #707070;
+    background-color: #186d56;
     color: #FFFFFF;
     
 }
 .bl-btn{
-    background-color: #3E3E3E;
+    background-color: #972429;
     color: #FFFFFF;
     font-size: 20px;
     font-weight: bold;
@@ -133,7 +133,7 @@ header {
     @include mq('sp') {
         width: 100%;
         height: 68px;
-        background-color: #FFFFFF;
+        background-color: #fcf09a;
     }
 
     .header-inner {
@@ -180,10 +180,13 @@ header:hover{
     transition: all 0.2s ease 0s;
     background-color: rgba(255, 255, 255, 1);
     border-bottom: 1px solid #707070;
+    @include mq('sp'){
+        background-color: #fcf09a;
+    }
     
 }
 .nav:hover{
-    border-bottom: 1px solid #3E3E3E; 
+    border-bottom: 1px solid #3E3E3E;
 }
 .nav-active{
     border-bottom: 1px solid #3E3E3E;
@@ -246,8 +249,8 @@ header:hover{
         font-size: 18px;
         padding-bottom: 58px;
         @include mq('sp'){
-	    color:#FFFFFF;
             font-size: 16px;
+            color:#FFFFFF;
             letter-spacing: 0.4px;
             line-height: 26px;
             text-align: left;
@@ -280,7 +283,7 @@ header:hover{
         .conteiner{
             padding: 60px 50px 40px 50px;
             @include mq('sp'){
-                height: 627px;
+                height: 645px;
                 background-color: #FFFFFF;
                 position: absolute;
                 top: -40px;
@@ -311,7 +314,7 @@ header:hover{
 
                 @include mq('sp'){
                     display: block;
-                    height: 125px;
+                    height: 135px;
                     padding: 16px;
                 }
                 .news-title{
@@ -381,7 +384,7 @@ header:hover{
                 margin-bottom:40px;
                 text-align: center;
                 @include mq('sp'){
-                    margin: 56px 0 40px 0;
+                    margin: 40px 0 40px 0;
                 }
             }
         }
@@ -389,10 +392,10 @@ header:hover{
 }
 #service{
     height: 655px;
-    background: linear-gradient(180deg,#3E3E3E 0%,#3E3E3E 400px,#F3F3F3 400px,#F3F3F3 655px);
+    background: linear-gradient(180deg,#972429 0%,#972429 400px,#186d56 400px,#186d56 655px);
     @include mq('sp'){
         height: 1100px;
-        background: linear-gradient(180deg,#3E3E3E 0%,#3E3E3E 480px,#F3F3F3 480px,#F3F3F3 928px);
+        background: linear-gradient(180deg,#972429 0%,#972429 480px,#186d56 480px,#186d56 928px);
         
     }
     h3{
@@ -485,12 +488,12 @@ header:hover{
 }
 #result{
     height: 832px;
-    background: linear-gradient(90deg,#F3F3F3 0%,#F3F3F3 93px,#3E3E3E 93px,#3E3E3E 100%);
+    background: linear-gradient(90deg,#186d56 0%,#186d56 93px,#972429 93px,#972429 100%);
     overflow: hidden;
     
     @include mq('sp'){
         height: 546px;
-        background: linear-gradient(90deg,#3E3E3E 0%,#3E3E3E 100%);
+        background: linear-gradient(90deg,#972429 0%,#972429 100%);
     }
 
     .conteiner{
@@ -561,7 +564,7 @@ header:hover{
                 width: 382px;
 
                 @include mq('sp'){
-                    height: 71px;
+                    height: 85px;
                     width:252.1px;
                     padding:12px;
                 }
@@ -611,6 +614,7 @@ header:hover{
         
         h3{
             padding-bottom: 80px;
+            color:#FFFFFF;
             @include mq('sp'){
                 padding-top: 40px;
                 padding-bottom: 40px;
@@ -629,7 +633,7 @@ header:hover{
         th{
             border: solid 1px #707070;
             color: #FFFFFF;
-            background-color: #3E3E3E;
+            background-color: #b59b57;
             font-family: "Montserrat","Yu Gothic";
             font-weight: bold;
             vertical-align:middle;
@@ -642,7 +646,7 @@ header:hover{
         }
         td{
             border: solid 1px #3E3E3E;
-            background-color: #FFFFFF;
+            background-color: #fcf09a;
             color: #3E3E3E;
             text-align: left;
             font-family: "Montserrat","Yu Gothic";
@@ -656,6 +660,7 @@ header:hover{
         }
     }
     p{
+        color:#fcf09a;
         padding-top: 23px;
         @include mq('sp'){
             padding-top: 14px;
@@ -671,7 +676,7 @@ header:hover{
         height: 510px;
     }
     .bg-box{
-        background-color: #3E3E3E;
+        background-color: #972429;
         width: 980px;
         height: 616px;
         position: absolute;
@@ -871,7 +876,7 @@ header:hover{
     top:-5px;
     @include mq('sp'){
         height:574px;
-        background-color: #3E3E3E;
+        background-color: #972429;
     }
     .bg-box{
         position: absolute;
@@ -879,7 +884,7 @@ header:hover{
         top:-5px;
         width:980px;
         height: 616px;
-        background-color: #3E3E3E;
+        background-color: #972429;
         @include mq('sp'){
             display: none;
 
@@ -1177,6 +1182,9 @@ header:hover{
                             font-size: 16px;
                             padding-top: 10px;
                         }
+                        @include mq('sp-pr'){
+                            padding-right: 40px;
+                        }
                     }
                     .radio{
                         display: none;
@@ -1413,7 +1421,7 @@ header:hover{
     opacity: 1;
   }
 footer{
-    background-color: #3E3E3E;
+    background-color: #186d56;
     height: 424px;
     position: relative;
     top:-5px;
