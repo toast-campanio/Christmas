@@ -19,11 +19,11 @@ a, p {
 
 section {
   width: 100%;
-  background-color: #F3F3F3;
+  background-color: #186d56;
 }
 
 body {
-  background-color: #F3F3F3;
+  background-color: #186d56;
 }
 
 .inner {
@@ -92,13 +92,13 @@ body {
 }
 
 .wh-btn:hover {
-  border: 1px solid #FFFFFF;
-  background-color: #3E3E3E;
+  border: 1px solid #707070;
+  background-color: #186d56;
   color: #FFFFFF;
 }
 
 .bl-btn {
-  background-color: #3E3E3E;
+  background-color: #972429;
   color: #FFFFFF;
   font-size: 20px;
   font-weight: bold;
@@ -135,7 +135,7 @@ header {
   header {
     width: 100%;
     height: 68px;
-    background-color: #FFFFFF;
+    background-color: #fcf09a;
   }
 }
 
@@ -193,6 +193,12 @@ header:hover {
   transition: all 0.2s ease 0s;
   background-color: white;
   border-bottom: 1px solid #707070;
+}
+
+@media screen and (max-width: 767px) {
+  header:hover {
+    background-color: #fcf09a;
+  }
 }
 
 .nav:hover {
@@ -274,6 +280,7 @@ header:hover {
 @media screen and (max-width: 767px) {
   .top-text p {
     font-size: 16px;
+    color: #FFFFFF;
     letter-spacing: 0.4px;
     line-height: 26px;
     text-align: left;
@@ -317,7 +324,7 @@ header:hover {
 
 @media screen and (max-width: 767px) {
   #news .inner .conteiner {
-    height: 627px;
+    height: 645px;
     background-color: #FFFFFF;
     position: absolute;
     top: -40px;
@@ -357,7 +364,7 @@ header:hover {
 @media screen and (max-width: 767px) {
   #news .inner .conteiner .content {
     display: block;
-    height: 125px;
+    height: 135px;
     padding: 16px;
   }
 }
@@ -446,19 +453,19 @@ header:hover {
 
 @media screen and (max-width: 767px) {
   #news .inner .conteiner .more {
-    margin: 56px 0 40px 0;
+    margin: 40px 0 40px 0;
   }
 }
 
 #service {
   height: 655px;
-  background: linear-gradient(180deg, #3E3E3E 0%, #3E3E3E 400px, #F3F3F3 400px, #F3F3F3 655px);
+  background: linear-gradient(180deg, #972429 0%, #972429 400px, #186d56 400px, #186d56 655px);
 }
 
 @media screen and (max-width: 767px) {
   #service {
     height: 1100px;
-    background: linear-gradient(180deg, #3E3E3E 0%, #3E3E3E 480px, #F3F3F3 480px, #F3F3F3 928px);
+    background: linear-gradient(180deg, #972429 0%, #972429 480px, #186d56 480px, #186d56 928px);
   }
 }
 
@@ -572,14 +579,14 @@ header:hover {
 
 #result {
   height: 832px;
-  background: linear-gradient(90deg, #F3F3F3 0%, #F3F3F3 93px, #3E3E3E 93px, #3E3E3E 100%);
+  background: linear-gradient(90deg, #186d56 0%, #186d56 93px, #972429 93px, #972429 100%);
   overflow: hidden;
 }
 
 @media screen and (max-width: 767px) {
   #result {
     height: 546px;
-    background: linear-gradient(90deg, #3E3E3E 0%, #3E3E3E 100%);
+    background: linear-gradient(90deg, #972429 0%, #972429 100%);
   }
 }
 
@@ -666,7 +673,7 @@ header:hover {
 
 @media screen and (max-width: 767px) {
   #result .conteiner .slide-card .card-text {
-    height: 71px;
+    height: 85px;
     width: 252.1px;
     padding: 12px;
   }
@@ -732,6 +739,7 @@ header:hover {
 
 #price .conteiner h3 {
   padding-bottom: 80px;
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 767px) {
@@ -758,7 +766,7 @@ header:hover {
 #price .conteiner th {
   border: solid 1px #707070;
   color: #FFFFFF;
-  background-color: #3E3E3E;
+  background-color: #b59b57;
   font-family: "Montserrat","Yu Gothic";
   font-weight: bold;
   vertical-align: middle;
@@ -773,7 +781,7 @@ header:hover {
 
 #price .conteiner td {
   border: solid 1px #3E3E3E;
-  background-color: #FFFFFF;
+  background-color: #fcf09a;
   color: #3E3E3E;
   text-align: left;
   font-family: "Montserrat","Yu Gothic";
@@ -790,6 +798,7 @@ header:hover {
 }
 
 #price p {
+  color: #fcf09a;
   padding-top: 23px;
 }
 
@@ -813,7 +822,7 @@ header:hover {
 }
 
 #comments .bg-box {
-  background-color: #3E3E3E;
+  background-color: #972429;
   width: 980px;
   height: 616px;
   position: absolute;
@@ -1058,7 +1067,7 @@ header:hover {
 @media screen and (max-width: 767px) {
   #access {
     height: 574px;
-    background-color: #3E3E3E;
+    background-color: #972429;
   }
 }
 
@@ -1068,7 +1077,7 @@ header:hover {
   top: -5px;
   width: 980px;
   height: 616px;
-  background-color: #3E3E3E;
+  background-color: #972429;
 }
 
 @media screen and (max-width: 767px) {
@@ -1436,6 +1445,12 @@ header:hover {
   }
 }
 
+@media screen and (max-width: 330px) {
+  #contact .conteiner .contact-contents .contact-content .radio-wrap .radio-text {
+    padding-right: 40px;
+  }
+}
+
 #contact .conteiner .contact-contents .contact-content .radio-wrap .radio {
   display: none;
 }
@@ -1696,7 +1711,7 @@ header:hover {
 }
 
 footer {
-  background-color: #3E3E3E;
+  background-color: #186d56;
   height: 424px;
   position: relative;
   top: -5px;
@@ -1835,7 +1850,7 @@ footer .conteiner .footer-right p {
   }
 }
 
-footer .haniwa {
+footer .toast {
   transition: all 0.5s ease 0s;
   cursor: pointer;
 }
