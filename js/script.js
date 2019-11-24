@@ -14,21 +14,11 @@ $(function(){
             }
           }]
       });
-    $(".haniwa").click(function(){
+    $(".toast").click(function(){
       $(this).css('color','#EBCA1B');
     });
     
-    $('.haniwa').on('click', function(){
-
-      //data属性からアニメーション名を取得
-      var animationName = $('.haniwa').data('animate');
     
-      //アニメーション要素にdata属性から取得したclassを追加　1秒後に削除
-      $('.haniwa').addClass(animationName).delay(1000).queue(function(next){
-        $('.haniwa').removeClass(animationName);
-        next();
-      });
-    });
     $('.qa-list-item').click(function() {
       var $answer = $(this).find('.answer');
         if($answer.hasClass('open')) { 
