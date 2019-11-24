@@ -18,7 +18,7 @@ $(function(){
       $(this).css('color','#EBCA1B');
     });
     
-    
+   
     $('.qa-list-item').click(function() {
       var $answer = $(this).find('.answer');
         if($answer.hasClass('open')) { 
